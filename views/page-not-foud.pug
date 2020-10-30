@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+    h2= err.message
+    p
+        strong= err.status
+    p= err.stack    
+    a.button.expanded(href=`http://localhost:3000/`) Go Back

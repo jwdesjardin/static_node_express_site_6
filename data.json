@@ -1,0 +1,49 @@
+{
+    "projects" : [
+        {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "Access the DOM and changes DOM element properties. Uses the setInterval adn clearInternal methods built into the window object to repeat actions. Uses the Math object to get random quotes and colors.",
+        "technologies": ["Vanilla JS" , "Math Object", "setInterval", "DOM properties"],
+        "live_link": "https://jwdesjardin.github.io/treehouseJS-Unit-1/",
+        "github_link": "https://github.com/jwdesjardin/treehouseJS-Unit-1",
+        "image_urls": ["/images/proj_1_square.png", "/images/proj_1_landscape_1.png", "/images/proj_1_landscape_2.png", "/images/proj_1_landscape_3.png"]
+    },
+        {
+        "id": 1,
+        "project_name": "Data Pagination and Search",
+        "description": "Create Html elements from hardcoded data using javascript. Limits 9 elements to a page and has pagination buttons. Has a case-insensitive filter input that operates on a keyup event listener to the filter input. ",
+        "technologies": ["Vanilla JS", "DOM traversal" , "Event Bubbling", "classList", "createElement"],
+        "live_link": "https://jwdesjardin.github.io/data-pagination-project2/",
+        "github_link": "https://github.com/jwdesjardin/data-pagination-project2",
+        "image_urls": ["/images/proj_2_square.png", "/images/proj_2_landscape_1.png", "/images/proj_2_landscape_2.png"]
+    },
+        {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "This form will validate your input in real-time and give error messages that vary based in what error is being made. ",
+        "technologies": ["Vanilla JS", "setAttribute", "ReqExp", "Validation"],
+        "live_link": "https://jwdesjardin.github.io/interactive-web-form-3/",
+        "github_link": "https://github.com/jwdesjardin/interactive-web-form-3",
+        "image_urls": ["/images/proj_3_square.png", "/images/proj_3_landscape_1.png", "/images/proj_4_landscape_2.png", "/images/proj_3_landscape_3.png"]
+    },
+        {
+        "id": 3,
+        "project_name": "OOP Guessing Game",
+        "description": "Guess the missing word correctly. Be careful as five incorrect guessing will lose you the game. ",
+        "technologies": ["Vanilla JS", "Classes"],
+        "live_link": "https://jwdesjardin.github.io/game_show_4/",
+        "github_link": "https://github.com/jwdesjardin/game_show_4",
+        "image_urls": ["/images/proj_4_square.png", "/images/proj_4_landscape_1.png", "/images/proj_4_landscape_2.png", "/images/proj_4_landscape_3.png"]
+    },
+        {
+        "id": 4,
+        "project_name": "Random User Api",
+        "description": "Uses the random user API to retrieve data and display information in the browser",
+        "technologies": ["Vanilla JS", "fetch API", "e.currentTarget", "randomuser API"],
+        "live_link": "https://jwdesjardin.github.io/public_api_requests_5/",
+        "github_link": "https://github.com/jwdesjardin/public_api_requests_5",
+        "image_urls": ["/images/proj_5_square.png", "/images/proj_5_landscape_1.png", "/images/proj_5_landscape_2.png", "/images/proj_5_landscape_3.png"]
+    }
+]      
+}
