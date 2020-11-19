@@ -8,27 +8,23 @@ app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
     res.render('index', { projects });
-    // res.send('home');
 });
 
 app.get('/about', (req, res) => {
     res.render('about');
-    // res.send('about');
 });
 
 app.get('/project/:id', (req, res) => {
     const id = req.params.id;
     const project = projects[id];
     res.render('project', { project });
-    // const id = req.params.id;
-    // res.send(`project ${id}`);
 });
 
-//My 404 handler
-app.use((req, res, next) => {
+//My 404 handler - catch all
+app.get((req, res) => {
     const err = new Error('Sorry, page was not found');
     err.status = 404;
-    next(err);
+    throw error;
 });
 
 //my global error handler
@@ -46,5 +42,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(3000, () => {
-    console.log('Listeing at PORT 3000');
+    console.log('Listening at PORT 3000');
 });

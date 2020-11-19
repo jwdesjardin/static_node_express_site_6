@@ -7,27 +7,26 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interpolation to dynamically add the project title.
+  
         h1= `${project.project_name}`
 
-        //- Use interpolation to dynamically add the project description.
+    
         p.lead.text-light
           | #{project.description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
         ul
           each li of project.technologies
             li= `${li}`
          
 
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
+
         a.button.expanded(href=`${project.live_link}`, target='_blank') Live Demo
         a.button.expanded(href=`${project.github_link}`, target='_blank') GitHub Repo
     
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see.
+ 
     img.imge(src=`http://localhost:3000/static/images/proj_${project.id + 1}_landscape_1.png`)
     img.imge(src=`http://localhost:3000/static/images/proj_${project.id + 1}_landscape_2.png`)
     img.imge(src=`http://localhost:3000/static/images/proj_${project.id + 1}_landscape_3.png`)

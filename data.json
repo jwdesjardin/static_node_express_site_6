@@ -3,7 +3,7 @@
         {
         "id": 0,
         "project_name": "Random Quote Generator",
-        "description": "Access the DOM and changes DOM element properties. Uses the setInterval adn clearInternal methods built into the window object to repeat actions. Uses the Math object to get random quotes and colors.",
+        "description": "Access the DOM and manipulate DOM element properties. Uses the setInterval and clearInternal methods built into the window object to repeat actions. Uses the Math object to get random quotes and colors.",
         "technologies": ["Vanilla JS" , "Math Object", "setInterval", "DOM properties"],
         "live_link": "https://jwdesjardin.github.io/treehouseJS-Unit-1/",
         "github_link": "https://github.com/jwdesjardin/treehouseJS-Unit-1",
@@ -21,7 +21,7 @@
         {
         "id": 2,
         "project_name": "Interactive Form",
-        "description": "This form will validate your input in real-time and give error messages that vary based in what error is being made. ",
+        "description": "This form will validate your input in real-time and give error messages that vary based on what error is being made. ",
         "technologies": ["Vanilla JS", "setAttribute", "ReqExp", "Validation"],
         "live_link": "https://jwdesjardin.github.io/interactive-web-form-3/",
         "github_link": "https://github.com/jwdesjardin/interactive-web-form-3",
@@ -38,7 +38,7 @@
     },
         {
         "id": 4,
-        "project_name": "Random User Api",
+        "project_name": "Random User API",
         "description": "Uses the random user API to retrieve data and display information in the browser",
         "technologies": ["Vanilla JS", "fetch API", "e.currentTarget", "randomuser API"],
         "live_link": "https://jwdesjardin.github.io/public_api_requests_5/",

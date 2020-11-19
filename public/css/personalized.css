@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap');
+
+body {
+  /* background: url('/static/images/double-bubble-outline.png') repeat; */
+  background-color: rgb(217, 221, 218);
+}
+
+.project-cell img {
+  transition: box-shadow 1s;
+}
+
+.project-cell img:hover {
+  box-shadow: 5px 5px 5px #333;
+}
+
+/* h5:hover {
+  color: purple;
+} */
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+h2,
+h3,
+h4,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  color: purple;
+}
+
+.button:hover {
+  background-color: purple;
+}
