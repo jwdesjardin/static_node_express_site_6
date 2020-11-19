@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.render('abouts');
-    // res.snd('about');
+    res.render('about');
+    // res.send('about');
 });
 
 app.get('/project/:id', (req, res) => {
@@ -28,7 +28,6 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error('Sorry, page was not found');
     err.status = 404;
-    console.log(`${err.status}: ${err.message} \n ${err.stack}`);
     next(err);
 });
 
@@ -40,7 +39,7 @@ app.use((err, req, res, next) => {
     }
     err.status = err.status || 500;
     err.message = err.message || 'Server Error';
-    console.log(`ERROR HANDLER: ${err.status}: ${err.message}`);
+
     res.locals.err = err;
     res.status(err.status);
     res.render('error');
