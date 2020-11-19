@@ -15,4 +15,6 @@ CHANGES MADE TO THE STYLES
 
 5. Added a purple color on hover to all buttons and links.
 
+6. added a thin border and margin to project photos on the project page
+
 THANKS FOR CHECKING OUT MY PROJECT!
