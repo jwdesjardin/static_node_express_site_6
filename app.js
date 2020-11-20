@@ -27,11 +27,10 @@ app.get('/project/:id', (req, res) => {
         error.status = 404;
         throw error;
     }
-    
 });
 
 //404 handler - catches any route not already matched above
-app.get('/*', (req, res) => {
+app.all('/*', (req, res) => {
     const error = new Error('Sorry, page was not found');
     error.status = 404;
     throw error;
@@ -44,9 +43,12 @@ app.use((err, req, res, next) => {
     err.status = err.status || 500;
     err.message = err.message || 'Server Error';
 
+    //log out error to the node console
+    console.error(err.message, err.status);
+
     //render different page for 404 and other server errors
     if (err.status === 404){
-        res.status(404).render('page-not-foud', { err });
+        res.status(404).render('page-not-found', { err });
     } else {
         res.status(err.status).render('error', { err });
     }
