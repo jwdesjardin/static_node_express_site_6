@@ -30,7 +30,7 @@ app.get('/project/:id', (req, res) => {
 });
 
 //404 handler - catches any route not already matched above
-app.all('/*', (req, res) => {
+app.use((req, res) => {
     const error = new Error('Sorry, page was not found');
     error.status = 404;
     throw error;
