@@ -1,5 +1,6 @@
 {
   "name": "static_node_express_site_6",
+  "proxy": "https://v1-pug-portfolio.herokuapp.com",
   "version": "1.0.0",
   "description": "Static site made with Node.js and Express",
   "main": "app.js",
