@@ -27,7 +27,9 @@ block content
         a.button.expanded(href=`${project.github_link}`, target='_blank') GitHub Repo
     
  
-    img.imge(src=`/static/images/proj_${project.id + 1}_landscape_1.png`)
-    img.imge(src=`/static/images/proj_${project.id + 1}_landscape_2.png`)
-    img.imge(src=`/static/images/proj_${project.id + 1}_landscape_3.png`)
+    ul
+      each val of project.image_urls
+        img.imge(src=`/static${val}`)
+
+    
     

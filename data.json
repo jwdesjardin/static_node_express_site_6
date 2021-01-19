@@ -1,49 +1,85 @@
 {
     "projects" : [
         {
-        "id": 0,
-        "project_name": "Random Quote Generator",
-        "description": "Access the DOM and manipulate DOM element properties. Uses the setInterval and clearInternal methods built into the window object to repeat actions. Uses the Math object to get random quotes and colors.",
-        "technologies": ["Vanilla JS" , "Math Object", "setInterval", "DOM properties"],
-        "live_link": "https://jwdesjardin.github.io/treehouseJS-Unit-1/",
-        "github_link": "https://github.com/jwdesjardin/treehouseJS-Unit-1",
-        "image_urls": ["/images/proj_1_square.png", "/images/proj_1_landscape_1.png", "/images/proj_1_landscape_2.png", "/images/proj_1_landscape_3.png"]
-    },
+            "id": 0,
+            "project_name": "Full Stack React App",
+            "description": "Uses create-react-app and react-router dom to create a react application that suuports crud functionality and user authentication. This application pulls data from the REST-API designed in the previous project.",
+            "technologies": ["React", "Context API", "React Router DOM", "React Hooks", "Props", "Functional Components"],
+            "live_link": "https://courses-deployment.herokuapp.com/",
+            "github_link": "https://github.com/jwdesjardin/fullstack_react_app",
+            "square_img": "/images/coursesSquare.jpg",
+            "image_urls": [ "/images/courses1.jpg", "/images/courses2.jpg", "/images/courses3.jpg", "/images/courses4.jpg"]
+        },
         {
-        "id": 1,
+            "id": 1,
+            "project_name": "Node.js Sequelize REST-API",
+            "description": "Uses node.js / express and the sequelize-cli to create a server that supports crud functionality to a SQLite db file.",
+            "technologies": ["Node JS / Express", "sequelize", "SQLite", "REST"],
+            "github_link": "https://github.com/jwdesjardin/school_rest_api_express",
+            "square_img": "/images/apiSquare.jpg",
+            "image_urls": [ "/images/api2.jpg", "/images/api3.jpg", "/images/api4.jpg", "/images/api5.jpg", "/images/api6.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "React Library",
+            "description": "Uses React and a third party api to display images based on a search resquest. Uses react router DOM to navigate through previous search history.",
+            "technologies": ["React JS", "axios", "Class Components", "react-router-dom", "Flikr API"],
+            "live_link": "https://jwdesjardin.github.io/react_photo_gallery_7/",
+            "github_link": "https://github.com/jwdesjardin/react_photo_gallery_7",
+            "square_img": "/images/proj_6_square.png",
+            "image_urls": [ "/images/proj_6_landscape_1.png", "/images/proj_6_landscape_2.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Random User API",
+            "description": "Uses the random user API to retrieve data and display information in the browser. This porject has a modal that is generated through the DOM.",
+            "technologies": ["Vanilla JS", "fetch API", "e.currentTarget", "randomuser API"],
+            "live_link": "https://jwdesjardin.github.io/public_api_requests_5/",
+            "github_link": "https://github.com/jwdesjardin/public_api_requests_5",
+            "square_img": "/images/proj_5_square.png",
+            "image_urls": [ "/images/proj_5_landscape_1.png", "/images/proj_5_landscape_2.png", "/images/proj_5_landscape_3.png"]
+        },
+        {
+        "id": 4,
+        "project_name": "OOP Guessing Game",
+        "description": "Guess the missing word correctly. Be careful as five incorrect guessing will lose you the game. Uses Object Oriented Programming practices in Javascript to create a game.",
+        "technologies": ["Vanilla JS", "Classes"],
+        "live_link": "https://jwdesjardin.github.io/game_show_4/",
+        "github_link": "https://github.com/jwdesjardin/game_show_4",
+        "square_img": "/images/proj_4_square.png",
+        "image_urls": [ "/images/proj_4_landscape_1.png", "/images/proj_4_landscape_2.png", "/images/proj_4_landscape_3.png"]
+    },
+        
+    {
+        "id": 5,
+        "project_name": "Interactive Form",
+        "description": "This form will validate your input in real-time and give error messages that vary based on what error is being made. Shows DOM Manipulation in creating and removing elements and classes on elements. String and Array manipulation as well as Regular Expressions are all used in this project. ",
+        "technologies": ["DOM Manipulation", "ES6 JavaScript", "Regular Expressions", "Input Validation"],
+        "live_link": "https://jwdesjardin.github.io/interactive-web-form-3/",
+        "github_link": "https://github.com/jwdesjardin/interactive-web-form-3",
+        "square_img": "/images/proj_3_square.png",
+        "image_urls": [ "/images/proj_3_landscape_1.png", "/images/proj_4_landscape_2.png", "/images/proj_3_landscape_3.png"]
+    },   
+    {
+        "id": 6,
         "project_name": "Data Pagination and Search",
         "description": "Create Html elements from hardcoded data using javascript. Limits 9 elements to a page and has pagination buttons. Has a case-insensitive filter input that operates on a keyup event listener to the filter input. ",
         "technologies": ["Vanilla JS", "DOM traversal" , "Event Bubbling", "classList", "createElement"],
         "live_link": "https://jwdesjardin.github.io/data-pagination-project2/",
         "github_link": "https://github.com/jwdesjardin/data-pagination-project2",
-        "image_urls": ["/images/proj_2_square.png", "/images/proj_2_landscape_1.png", "/images/proj_2_landscape_2.png"]
+        "square_img": "/images/proj_2_square.png",
+        "image_urls": [ "/images/proj_2_landscape_1.png", "/images/proj_2_landscape_2.png"]
     },
-        {
-        "id": 2,
-        "project_name": "Interactive Form",
-        "description": "This form will validate your input in real-time and give error messages that vary based on what error is being made. ",
-        "technologies": ["Vanilla JS", "setAttribute", "ReqExp", "Validation"],
-        "live_link": "https://jwdesjardin.github.io/interactive-web-form-3/",
-        "github_link": "https://github.com/jwdesjardin/interactive-web-form-3",
-        "image_urls": ["/images/proj_3_square.png", "/images/proj_3_landscape_1.png", "/images/proj_4_landscape_2.png", "/images/proj_3_landscape_3.png"]
-    },
-        {
-        "id": 3,
-        "project_name": "OOP Guessing Game",
-        "description": "Guess the missing word correctly. Be careful as five incorrect guessing will lose you the game. ",
-        "technologies": ["Vanilla JS", "Classes"],
-        "live_link": "https://jwdesjardin.github.io/game_show_4/",
-        "github_link": "https://github.com/jwdesjardin/game_show_4",
-        "image_urls": ["/images/proj_4_square.png", "/images/proj_4_landscape_1.png", "/images/proj_4_landscape_2.png", "/images/proj_4_landscape_3.png"]
-    },
-        {
-        "id": 4,
-        "project_name": "Random User API",
-        "description": "Uses the random user API to retrieve data and display information in the browser",
-        "technologies": ["Vanilla JS", "fetch API", "e.currentTarget", "randomuser API"],
-        "live_link": "https://jwdesjardin.github.io/public_api_requests_5/",
-        "github_link": "https://github.com/jwdesjardin/public_api_requests_5",
-        "image_urls": ["/images/proj_5_square.png", "/images/proj_5_landscape_1.png", "/images/proj_5_landscape_2.png", "/images/proj_5_landscape_3.png"]
+    {
+        "id": 7,
+        "project_name": "Random Quote Generator",
+        "description": "Access the DOM and manipulate DOM element properties. Uses the setInterval and clearInternal methods built into the window object to repeat actions. Uses the Math object to get random quotes and colors.",
+        "technologies": ["Vanilla JS" , "Math Object", "setInterval", "DOM properties"],
+        "live_link": "https://jwdesjardin.github.io/treehouseJS-Unit-1/",
+        "github_link": "https://github.com/jwdesjardin/treehouseJS-Unit-1",
+        "square_img": "/images/proj_1_square.png",
+        "image_urls": ["/images/proj_1_landscape_1.png", "/images/proj_1_landscape_2.png", "/images/proj_1_landscape_3.png"]
     }
+        
 ]      
 }
